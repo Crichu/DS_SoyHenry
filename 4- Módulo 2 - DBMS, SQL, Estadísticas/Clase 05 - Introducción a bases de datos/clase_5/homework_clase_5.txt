@@ -1,0 +1,16 @@
+Crear un modelo relacional basado en el modelo de negocios de Henry:
+
+Identificar las relaciones.
+Identifcar primary key´s y foreing key´s.
+Definir los tipos de datos.
+La entidades a modelar junto sus atributos son:
+
+Carrea: ID, Nombre.
+
+Cohorte: ID, Código, Carrera, Fecha de Inicio, Fecha de Finalización, Instructor.
+
+Instructores: ID, Cédula de identidad, Nombre, Apellido, Fecha de Nacimiento, Fecha de Incorporación.
+
+Alumnos: ID, Cédula de identidad, Nombre, Apellido, Fecha de Nacimiento, Fecha de Ingreso, Cohorte.
+
+Crear en MySQL las tablas y relaciones del modelo definido.

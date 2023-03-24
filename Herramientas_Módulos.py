@@ -18,7 +18,7 @@ class Herramientas:
     
     def factorial(self):
         for i in self.lista:
-            print('El factorial de ', i, 'es', self.__factorial(i))
+            print(self.__factorial(i))
 
     def __verifica_primo(self, nro): #verifica si un número es primo o no.
         es_primo = True
